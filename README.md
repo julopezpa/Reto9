@@ -1,4 +1,4 @@
-# Reto9
+# Reto10
 # 1)Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
      def promedio():
         n=int(input("ingrese el numero de valores que quiere en el vector"))#Pide el tamaño que va a tener el vector
