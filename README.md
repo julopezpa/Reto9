@@ -1,13 +1,13 @@
 # Reto9
-1) Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
+# Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
   
-    def promedio():
-    n=int(input("ingrese el numero de valores que quiere en el vector"))
-    lista=[]
-    suma=0
-    for i in range(n):
-        numero=float(input("ingrese el elemento"))
-        lista.append(numero)
+      def promedio():
+      n=int(input("ingrese el numero de valores que quiere en el vector"))
+      lista=[]
+      suma=0
+      for i in range(n):
+          numero=float(input("ingrese el elemento"))
+          lista.append(numero)
     suma=sum(lista)
     print(lista)
     return (suma/n)
@@ -16,4 +16,4 @@
         promedio_lista=promedio()
         print("el promedio de los valores dentro de la lista es "+str(promedio_lista))
         
-2)Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
+# Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
